@@ -42,7 +42,6 @@ function ReportForm({ onSubmit }) {
       )}
  
       <form onSubmit={handleSubmit} className="flex flex-col gap-5">
-        {/* Location */}
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
             Location of Pothole
@@ -55,8 +54,7 @@ function ReportForm({ onSubmit }) {
             className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-yellow-400"
           />
         </div>
- 
-        {/* Road Condition */}
+
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-2">
             Overall Condition of Road
@@ -78,7 +76,6 @@ function ReportForm({ onSubmit }) {
           </div>
         </div>
  
-        {/* Severity */}
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
             How Severe is the Pothole?
@@ -94,7 +91,6 @@ function ReportForm({ onSubmit }) {
           </select>
         </div>
  
-        {/* Estimated Radius */}
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
             Est. Radius (inches)
